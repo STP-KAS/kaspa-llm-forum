@@ -46,6 +46,15 @@ FILES = [
     ("17-kurrent-channels.md", CAT_IDEAS),
     ("18-fees-mass.md", CAT_IDEAS),
     ("19-llm-method.md", CAT_GENERAL),
+    ("20-privacy.md", CAT_IDEAS),
+    ("21-l2-guests.md", CAT_IDEAS),
+    ("22-economics.md", CAT_IDEAS),
+    ("23-mining.md", CAT_IDEAS),
+    ("24-unaudited-vaults.md", CAT_IDEAS),
+    ("25-lore-vs-explained.md", CAT_IDEAS),
+    ("26-wasm-sdks.md", CAT_IDEAS),
+    ("27-dual-rail-till.md", CAT_IDEAS),
+    ("28-research-forum.md", CAT_IDEAS),
 ]
 
 MUTATION = """
@@ -84,8 +93,17 @@ def gh_graphql(payload: dict) -> dict:
 
 
 def main() -> int:
-    results = []
+    want = set(sys.argv[1:]) if len(sys.argv) > 1 else None
+    existing = []
+    if OUT.exists() and want:
+        try:
+            existing = json.loads(OUT.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            existing = []
+    results = list(existing) if want else []
     for name, cat in FILES:
+        if want is not None and name not in want:
+            continue
         path = ROOT / "discussions" / name
         text = path.read_text(encoding="utf-8")
         title = title_from(text, name)
@@ -110,7 +128,7 @@ def main() -> int:
         print(f"  -> {d['url']}", flush=True)
         time.sleep(1.2)
     OUT.write_text(json.dumps(results, indent=2), encoding="utf-8")
-    print(f"wrote {OUT}", flush=True)
+    print(f"wrote {OUT} ({len(results)} rows)", flush=True)
     return 0
 
 

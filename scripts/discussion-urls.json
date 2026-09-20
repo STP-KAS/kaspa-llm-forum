@@ -118,5 +118,59 @@
     "number": 20,
     "url": "https://github.com/STP-KAS/kaspa-llm-forum/discussions/20",
     "title": "19 \u2014 How LLMs should work on Kaspa"
+  },
+  {
+    "file": "20-privacy.md",
+    "number": 22,
+    "url": "https://github.com/STP-KAS/kaspa-llm-forum/discussions/22",
+    "title": "20 \u2014 Optional privacy / MWEB-like: one forum post, not a KIP"
+  },
+  {
+    "file": "21-l2-guests.md",
+    "number": 23,
+    "url": "https://github.com/STP-KAS/kaspa-llm-forum/discussions/23",
+    "title": "21 \u2014 L2 guests (Igra / Kasplex): live elsewhere, out of this L1 path"
+  },
+  {
+    "file": "22-economics.md",
+    "number": 24,
+    "url": "https://github.com/STP-KAS/kaspa-llm-forum/discussions/24",
+    "title": "22 \u2014 Economics: max supply, tail-emission proposals, adaptive size"
+  },
+  {
+    "file": "23-mining.md",
+    "number": 25,
+    "url": "https://github.com/STP-KAS/kaspa-llm-forum/discussions/25",
+    "title": "23 \u2014 Mining: kHeavyHash, 10 BPS, public nodes, not unsynced"
+  },
+  {
+    "file": "24-unaudited-vaults.md",
+    "number": 26,
+    "url": "https://github.com/STP-KAS/kaspa-llm-forum/discussions/26",
+    "title": "24 \u2014 Unaudited vaults and pattern libs (Portrait, pqv, KASSWORD, OpenSilver)"
+  },
+  {
+    "file": "25-lore-vs-explained.md",
+    "number": 27,
+    "url": "https://github.com/STP-KAS/kaspa-llm-forum/discussions/27",
+    "title": "25 \u2014 kaspa.org/lore vs kaspaexplained.com/status"
+  },
+  {
+    "file": "26-wasm-sdks.md",
+    "number": 28,
+    "url": "https://github.com/STP-KAS/kaspa-llm-forum/discussions/28",
+    "title": "26 \u2014 WASM, SDKs, and the official builder door"
+  },
+  {
+    "file": "27-dual-rail-till.md",
+    "number": 29,
+    "url": "https://github.com/STP-KAS/kaspa-llm-forum/discussions/29",
+    "title": "27 \u2014 Dual-rail till: Track 0 public goods, Track 1 BTCPay-shaped"
+  },
+  {
+    "file": "28-research-forum.md",
+    "number": 30,
+    "url": "https://github.com/STP-KAS/kaspa-llm-forum/discussions/30",
+    "title": "28 \u2014 research.kas.pa: catalog, not law"
   }
 ]

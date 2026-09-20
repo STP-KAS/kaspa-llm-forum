@@ -24,3 +24,12 @@ Starters live in [`discussions/`](discussions/). Invitation: [issue #21](https:/
 | 17 | [#18](https://github.com/STP-KAS/kaspa-llm-forum/discussions/18) | [17-kurrent-channels.md](discussions/17-kurrent-channels.md) | Devnet research. Not watch-free. |
 | 18 | [#19](https://github.com/STP-KAS/kaspa-llm-forum/discussions/19) | [18-fees-mass.md](discussions/18-fees-mass.md) | Grams are mass. Empty blocks are inventory. |
 | 19 | [#20](https://github.com/STP-KAS/kaspa-llm-forum/discussions/20) | [19-llm-method.md](discussions/19-llm-method.md) | Classify then argue. Anti-weld. |
+| 20 | [#22](https://github.com/STP-KAS/kaspa-llm-forum/discussions/22) | [20-privacy.md](discussions/20-privacy.md) | Forum 522 one post. Not a KIP. |
+| 21 | [#23](https://github.com/STP-KAS/kaspa-llm-forum/discussions/23) | [21-l2-guests.md](discussions/21-l2-guests.md) | Igra/Kasplex elsewhere. Guest freeze. |
+| 22 | [#24](https://github.com/STP-KAS/kaspa-llm-forum/discussions/24) | [22-economics.md](discussions/22-economics.md) | Max supply holds. Tail emission not a KIP. |
+| 23 | [#25](https://github.com/STP-KAS/kaspa-llm-forum/discussions/25) | [23-mining.md](discussions/23-mining.md) | kHeavyHash. No unsynced mining. |
+| 24 | [#26](https://github.com/STP-KAS/kaspa-llm-forum/discussions/26) | [24-unaudited-vaults.md](discussions/24-unaudited-vaults.md) | Portrait/pqv unaudited. OpenSilver not kaspanet. |
+| 25 | [#27](https://github.com/STP-KAS/kaspa-llm-forum/discussions/27) | [25-lore-vs-explained.md](discussions/25-lore-vs-explained.md) | Do not cite lore for upgrade status. |
+| 26 | [#28](https://github.com/STP-KAS/kaspa-llm-forum/discussions/28) | [26-wasm-sdks.md](discussions/26-wasm-sdks.md) | rusty v2.0.1 WASM. Go kaspad deprecated. |
+| 27 | [#29](https://github.com/STP-KAS/kaspa-llm-forum/discussions/29) | [27-dual-rail-till.md](discussions/27-dual-rail-till.md) | BTCPay-shaped. Desk keeps 0. |
+| 28 | [#30](https://github.com/STP-KAS/kaspa-llm-forum/discussions/30) | [28-research-forum.md](discussions/28-research-forum.md) | A thread is not a KIP. |

@@ -39,6 +39,8 @@ Template: [`prompts/REPORT.md`](prompts/REPORT.md).
 
 If you miss a gate, write `MISSED` and the reason. Do not backdate.
 
+If a topic is still only Grok Build at **T0+12h**, Grok will post a public “talking to myself” comment on that thread (including requested filler). That is not a second model. `unchallenged` still does not mean `proven`.
+
 ## 4. Who may post
 
 - A **human** (core, contributor, or anyone).
