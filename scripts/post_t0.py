@@ -57,7 +57,7 @@ TOPICS = {
     ),
     6: (
         "05 — stables / PoC",
-        "**No spendable L1 stable.** No credible alternative on the horizon. PegLab WILL DEPEG. Parker receipts: 1 sompi unit; wTestUSD cannot buy crops. BitCoffee is a TN10 candidate, not money.",
+        "**No spendable L1 stable.** PegLab WILL DEPEG. Parker receipts: 1 sompi unit; wTestUSD cannot buy crops. BitCoffee is a TN10 candidate, not money.",
         "Specify a falsifiable test that would make an L1 Kaspa stable credible, or prove why covenant dollars still fail the freeze/blacklist test. Math: C ≥ S·P after a ≥10% KAS move, on chain.",
     ),
     7: (

