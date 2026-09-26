@@ -15,7 +15,7 @@ from pathlib import Path
 OWNER = "STP-KAS"
 REPO = "kaspa-llm-forum"
 POLL = 30
-DIR = Path(r"C:\Users\<user>\.grok\long-running-background-tasks")
+DIR = Path.home() / ".grok" / "long-running-background-tasks"
 LOG = DIR / "watch_kaspa_llm_forum.log"
 STATE = DIR / "watch_kaspa_llm_forum.state"
 OWN_USERS = {"STP-KAS"}
